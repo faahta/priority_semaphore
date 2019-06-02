@@ -1,5 +1,5 @@
-/*This is an advanced version of the priority semaphores implemented only for many number of priority
-classes, the number can be specified by fixing NUM_OF_PRIO_CLASSES to the desired number*/
+/*This is an advanced version of the priority semaphores implemented for many number of priority
+classes, the number can be specified by fixing NUM_OF_PRIO_CLASSES to the desired value*/
 
 #include<stdio.h>
 #include<stdlib.h>
