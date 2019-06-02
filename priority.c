@@ -143,7 +143,8 @@ init(int value){
 	}
 }
 
-void pipe_to_file(){
+void 
+pipe_to_file(){
 	r_count++;
 	threads_t thread_data;
 	int res = read(fd[0], &thread_data, sizeof(threads_t));
