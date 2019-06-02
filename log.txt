@@ -8,3 +8,13 @@ Thread 3:  priority C7:  status: I am inside critical region
 Thread 1:  priority C7:  status: I am inside critical region
 Thread 0:  priority C6:  status: I am inside critical region
 Thread 4:  priority C1:  status: I am inside critical region
+Thread 0:  priority C4:  status: I am requesting to access critical region
+Thread 1:  priority C5:  status: I am requesting to access critical region
+Thread 2:  priority C9:  status: I am requesting to access critical region
+Thread 3:  priority C10:  status: I am requesting to access critical region
+Thread 4:  priority C4:  status: I am requesting to access critical region
+Thread 3:  priority C10:  status: I am inside critical region
+Thread 2:  priority C9:  status: I am inside critical region
+Thread 1:  priority C5:  status: I am inside critical region
+Thread 4:  priority C4:  status: I am inside critical region
+Thread 0:  priority C4:  status: I am inside critical region
